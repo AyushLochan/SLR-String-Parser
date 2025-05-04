@@ -1,6 +1,7 @@
 import streamlit as st
 import time
 import graphviz
+import numpy as np
 
 def parse_grammar(grammar_input):
     grammar_rules = {}
